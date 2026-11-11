@@ -15,4 +15,4 @@ echo Delete existing dotnet
 rm -rf /usr/share/dotnet 2> /dev/null
 
 echo Install dotnet
-bash "$script_dir/dotnet-install.sh" --version latest --install-dir /usr/share/dotnet
+bash "$script_dir/dotnet-install.sh" --channel 11.0 --install-dir /usr/share/dotnet
